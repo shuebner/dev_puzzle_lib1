@@ -1,0 +1,6 @@
+<Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove($(MSBuildThisFile), '$(MSBuildThisFileDirectory)../'))" />
+  <PropertyGroup>
+    <Product>The amazing Lib1</Product>
+  </PropertyGroup>
+</Project>
